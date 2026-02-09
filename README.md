@@ -1,3 +1,13 @@
+cd <ros_ws>/src
+git clone 
+
+cd <ros_ws>
+colcon build --symlink-install
+
+nano .bashrc
+source ./install/setup.sh(不是bash，是sh)
+
+
 # Livox ROS Driver 2
 
 Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended).
